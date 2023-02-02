@@ -46,7 +46,7 @@ public class TicTacToeGameTest {
 
 			}
 
-			flag = obj.checkwinner(arr, ch, turn);
+			flag = obj.checkWinner(arr, ch, turn);
 
 			if (flag == -1) {
 				System.out.println("Draw");

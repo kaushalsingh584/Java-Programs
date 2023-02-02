@@ -17,7 +17,7 @@ public class TicTacToe {
 	public void setArr(char[][] arr,int row,int col,char ch) {
 		arr[row - 1][col - 1] = ch;
 	}
-	public int checkwinner(char[][] arr, char ch, int turn) {
+	public int checkWinner(char[][] arr, char ch, int turn) {
 		// TODO Auto-generated method stub
 		//scanning rows
 		if ((arr[0][0] == ch && arr[0][1] == ch && arr[0][2] == ch)
