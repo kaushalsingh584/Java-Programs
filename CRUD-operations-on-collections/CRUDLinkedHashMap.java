@@ -34,7 +34,7 @@ public class CRUDLinkedHashMap {
 		// delete
 		System.out.println("----------------Delete operation----------------");
 		linkedHashMap.remove(4);
-		System.out.println("hashset after removing element 10: " + linkedHashMap);
+		System.out.println("hashset after removing key 4: " + linkedHashMap);
 
 	}
 

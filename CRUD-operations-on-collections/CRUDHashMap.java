@@ -29,7 +29,7 @@ public class CRUDHashMap {
 		// delete
 		System.out.println("----------------Delete operation----------------");
 		map.remove(4);
-		System.out.println("hashset after removing element 10: " + map);
+		System.out.println("hashset after removing key 4: " + map);
 
 	}
 
